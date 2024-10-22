@@ -2,12 +2,12 @@
 # ───────────────────────────────────────────────────
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
-id: ihe.domain.profile
-canonical: https://profiles.ihe.net/Domain/Profile
+id: ihe.qrph.profile
+canonical: https://profiles.ihe.net/QRPH/QMOD
 version: 0.0.1-current
-name: IHE_Domain_Profile
-title: "spelled out name of the IHE Profile"
-description: put the short description of the profile here. it should explain what problem is being solved
+name: IHE_QRPH_QMOD
+title: "Quality Measures for Occupational Data For Health"
+description: This IHE profile will constrain quality reporting and measurement standards in the context of ODH to improve the ability to assess work-related risks and provide support for strategies to monitor and measure health impacts related to workplace conditions with specific content to support quality improvement efforts.
 releaseLabel: ci-build
 #releaseLabel: ballot
 #releaseLabel: trial-use
@@ -16,14 +16,14 @@ releaseLabel: ci-build
 status: draft
 publisher:
   ## Find your domain contact on the https://www.ihe.net/ihe_domains page
-  - name: IHE IT Infrastructure Technical Committee
-  - url: https://www.ihe.net/ihe_domains/it_infrastructure/
+  - name: IHE Quality, Research and Public Health Committee
+  - url: https://www.ihe.net/ihe_domains/quality_research_and_public_health/
   - email: iti@ihe.net
 contact:
-  - name: IHE IT Infrastructure Technical Committee
+  - name: IHE Quality, Research and Public Health Committee
     telecom:
       - system: email
-        value: iti@ihe.net
+        value: qrph@ihe.net
 license:  CC-BY-4.0
 fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
