@@ -1,8 +1,8 @@
-This section corresponds to transaction [ITI-Y] of the IHE Technical Framework. Transaction [ITI-Y] is used by the Client and Server Actors. The go [ITI-Y] transaction is used to query and get back results.
+This section corresponds to transaction [\[QRPH-60\]](QRPH-60.html) of the IHE Technical Framework. Transaction [\[QRPH-60\]](QRPH-60.html) is used by the Data Responder and Data Consumer Actors to Query for ODH Quality Data. 
 
 ### Scope
 
-The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
+The Data Consumer [\[QRPH-60\]](QRPH-60.html) transaction sends a query for Quality Data to the Data Responder. This transaction is used to query an entity for information needed to compute ODH quality measures
 
 ### Actors Roles
 
@@ -10,8 +10,8 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 |Actor | Role |
 |-------------------+--------------------------|
-| [Client](volume-1.html#client)    | Sends query to Server |
-| [Server](volume-1.html#server) | Receives the query and responds |
+| [Data Responder ](volume-1.html#DataResponder)    | The Data Responder responds to a query for ODH quality data. |
+| [Data Consumer ](volume-1.html#DataCOnsumer) | The Data Consumer sends a query for the ODH quality data and receives the response returned by the Data Responder.  |
 
 ### Referenced Standards
 
@@ -21,7 +21,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 <figure>
 {%include domain-Y-seq.svg%}
-<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Go Interactions</p>
+<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Query for ODH Quality Data Interaction Diagram</p>
 </figure>
 <br clear="all">
 

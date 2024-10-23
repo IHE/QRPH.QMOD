@@ -1,17 +1,18 @@
 
-**TODO: Provide an end-user friendly overview of what the profile does for them. Keep it brief (a paragraph or two, up to a page). If extensive detail is needed, it should be included in Section XX.4- Use Cases.**
+**Communication and processing of quality metrics represents an emerging area within interoperability that will greatly enhance the ability to specify and execute logic for population health monitoring. Occupational Data for Health (ODH) has been identified as a framework containing key social history factors impacting patient health, the management of medical conditions, and identification of risk factors. There is also an opportunity for monitoring and improvement of healthcare delivery through quality measures of health outcomes, and to assess the effectiveness of mitigation strategies such as testing and education. This IHE profile will constrain quality reporting and measurement standards in the context of ODH to improve the ability to assess work-related risks and provide support for strategies to monitor and measure health impacts related to workplace conditions with specific content to support quality improvement efforts.
+This profile will facilitate electronic data capture of quality measure data to enable automated data capture and streamline quality measure analysis. This will improve the timeliness and accuracy of the information used to compute ODH quality measures.**
 
-**TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
+**This is a Content Module profile with supporting Transactions. **
 
 <a name="actors-and-transactions"> </a>
 
 ## 1:X.1 ToDo Actors, Transactions, and Content Modules
 
 * Actors
-  * [Client](#client)
-  * [Server](#server)
+  * [Data Responder](#DataResponder)
+  * [Data Consumer](#DataConsumer)
 * Transactions
-  * [do domain-Y](domain-YY.html)
+  * [QRPH-60](QRPH-60.html)
 
 Actors and transactions are used to achieve this use-case...
 

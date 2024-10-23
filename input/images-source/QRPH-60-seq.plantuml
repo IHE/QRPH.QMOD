@@ -1,0 +1,12 @@
+@startuml
+skinparam svgDimensionStyle false
+hide footbox
+participant "Data Consumer" as Client
+participant "Data Responder" as Server
+activate "Data Consumer"
+activate "Data Responder"
+"Data Consumer" -> "Data Responder" : 1. Query for ODH Measure Data [QRPH-60]
+"Data Responder" --> "Data COnsumer" : 2. Response to Query for ODH Measure Data [QRPH-60]
+deactivate "Data Consumer"
+deactivate "Data Responder"
+@enduml
