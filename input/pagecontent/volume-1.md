@@ -9,8 +9,8 @@ This profile will facilitate electronic data capture of quality measure data to 
 ## 1:X.1 ToDo Actors, Transactions, and Content Modules
 
 * Actors
-  * [Data Responder](#DataResponder)
-  * [Data Consumer](#DataConsumer)
+  * [Data Responder](#server)
+  * [Data Consumer](#client)
 * Transactions
   * [QRPH-60](QRPH-60.html)
 
