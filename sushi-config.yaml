@@ -2,7 +2,7 @@
 # ───────────────────────────────────────────────────
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
-id: ihe.qrph.profile
+id: ihe.qrph.qmod
 canonical: https://profiles.ihe.net/QRPH/QMOD
 version: 0.0.1-current
 name: IHE_QRPH_QMOD
